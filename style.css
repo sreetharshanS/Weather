@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background-color: violet;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.weather{
+    margin-top: 14%;
+    height: 550px;
+    width: 400px;
+    border:none;
+    box-shadow:2px 2px 5px darkviolet;
+    border-radius: 18px;
+    background-color: rgb(123, 122, 122);
+}
+.weather input{
+    margin-left: 45px;
+    padding: 13px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+}
+.mainimg{
+    margin-left: 90px;
+}
+.weather button{
+    padding: 15px;
+    border-radius:10px;
+    background-color: rgb(9, 218, 9);
+    cursor: pointer;
+    border: none;
+    margin-left: 10px;
+}
+.wind{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.details{
+    font-size: 23px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
